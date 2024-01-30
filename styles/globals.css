@@ -1,0 +1,76 @@
+body{
+  background-color: black;
+}
+
+.container h1{
+  color: #ddd;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.user-info {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ddd;
+}
+
+.profile-image {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: #ddd;
+}
+
+.login-button {
+  background-color: #e9eae9;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+.logout-button {
+  color: #ddd;
+  background-color: #e21919;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.nft-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #ddd;
+}
+
+.nft-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: #ddd;
+}
+
+.nft-image {
+  color: #ddd;
+  max-width: 100px;
+  border-radius: 5px;
+}
